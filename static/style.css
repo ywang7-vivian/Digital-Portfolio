@@ -1,5 +1,6 @@
 body {
     padding-top: 4.5rem;
+    font-family: Lato;
 }
 
 .bi {
@@ -115,4 +116,9 @@ a.cover-link {
 .hovereffect .date {
     text-align: center;
     font-size: 14px;
+}
+
+.boldserif {
+    font-family: Lato;
+    font-weight: bold;
 }

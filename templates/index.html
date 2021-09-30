@@ -15,9 +15,10 @@
     <!-- My style sheet -->
     <link href="{{url_for('static', filename='style.css')}}" rel="stylesheet">
     <title>Vivian Wang</title>
+    <link rel="icon" href="{{url_for('static', filename='icon-for-blog-28.jpg')}}" type="image/x-icon">
 </head>
 
-<body>
+<body style="background-color: #FFF4EA;">
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
         <symbol id="home" viewBox="0 0 16 16">
             <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
@@ -33,7 +34,7 @@
 
 
     <header>
-        <div class="px-3 py-2 bg-dark text-white fixed-top">
+        <div class="px-3 py-2 text-white fixed-top" style="background-color: #FFA351FF;">
             <div class="container">
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                     <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
@@ -61,10 +62,10 @@
         </div>
     </header>
 
-    <main>
+    <main class="container" style="background-color:#fcfaf8;">
 
         <section class="pt-5 text-center container">
-            <div class="row pt-lg-5">
+            <div class="row pt-lg-4">
                 <div class="col-lg-6 col-md-8 mx-auto">
                     <p class="lead text-muted">Howdy, welcome to my blog! Here you will see a collection of projects I made about business analytics and data science. Enjoy!</p>
 
@@ -75,7 +76,7 @@
         <div class="container border-bottom mb-lg-5 pt-lg-5" id="portfolio"></div>
 
         <div class="container pb-5 ">
-            <h1 class="pb-3">
+            <h1 class="pb-3 boldserif">
                 Portfolio
             </h1>
             <div class="row">
@@ -164,7 +165,7 @@
         <div class="container border-bottom mb-lg-5 pt-lg-5" id="about"></div>
 
         <div class="container pb-5 ">
-            <h1 class="pb-3">
+            <h1 class="pb-3 boldserif">
                 About Me
             </h1>
             <div class="row">
@@ -185,16 +186,16 @@
     </main>
 
 
-    <footer class="text-muted py-5">
+    <footer class="text-muted py-5" style="background-color: #FFA351FF;">
         <div class="container">
             <div style="padding-left: 10px;">
-                <h3 class="text-center pb-3">Hire Me</h3>
+                <h3 class="text-center pb-3 text-white">Hire Me</h3>
             </div>
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="ms-3"><a class="link-dark" href="https://www.linkedin.com/in/vivian-yf-wang/"><span class="iconify" data-icon="akar-icons:linkedin-fill" style = "font-size: 30px; color: grey"></span></a></li>
-                <li class="ms-3"><a class="link-dark" href="https://github.com/ywang7-vivian"><span class="iconify" data-icon="ant-design:github-filled" style = "font-size: 30px; color: grey"></span></a></li>
-                <li class="ms-3"><a class="link-dark" href="https://public.tableau.com/app/profile/vivian.wang7588"><span class="iconify" data-icon="simple-icons:tableau" style = "font-size: 30px; color: grey"></span></a></li>
-                <li class="ms-3"><a class="link-dark" href="https://community.alteryx.com/t5/user/viewprofilepage/user-id/258456"><svg id="svg" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0, 0, 400,400"><g id="svgg" style = "filter: invert(48%)"><path id="path0" d="M186.070 3.985 C 36.286 14.762,-46.306 184.991,37.545 310.105 C 121.102 434.779,309.569 422.642,376.970 288.247 C 445.303 151.995,338.538 -6.985,186.070 3.985 M206.250 85.203 C 227.628 87.161,250.483 94.224,260.728 102.038 L 263.281 103.986 263.325 176.407 C 263.358 230.412,263.607 249.505,264.302 251.489 C 266.077 256.555,267.781 257.134,282.321 257.615 L 295.313 258.044 295.313 265.989 C 295.312 285.111,287.939 292.214,268.126 292.176 C 253.407 292.148,242.605 286.834,236.213 276.478 C 232.815 270.973,234.119 271.006,226.821 276.242 C 197.542 297.249,153.035 297.595,132.417 276.977 C 112.954 257.514,113.320 214.599,133.117 194.848 C 146.615 181.381,162.024 177.351,207.031 175.517 L 229.297 174.609 229.503 149.515 L 229.709 124.420 225.660 122.679 C 205.648 114.070,170.943 113.919,147.600 122.339 C 144.547 123.440,141.885 124.176,141.683 123.975 C 140.931 123.223,138.326 108.703,137.530 100.831 C 136.557 91.208,135.797 92.128,146.875 89.529 C 166.571 84.909,186.883 83.429,206.250 85.203 M203.516 202.062 C 175.154 203.481,168.007 205.027,161.809 211.087 C 151.338 221.325,152.138 249.350,163.138 257.610 C 174.763 266.340,203.455 263.779,223.959 252.181 C 230.720 248.357,230.126 251.236,229.849 223.633 L 229.620 200.781 227.115 200.894 C 225.737 200.956,215.117 201.482,203.516 202.062 "></path></g></svg></a></li>
+                <li class="ms-3"><a class="link-dark" href="https://www.linkedin.com/in/vivian-yf-wang/"><span class="iconify" data-icon="akar-icons:linkedin-fill" style = "font-size: 30px; color: white"></span></a></li>
+                <li class="ms-3"><a class="link-dark" href="https://github.com/ywang7-vivian"><span class="iconify" data-icon="ant-design:github-filled" style = "font-size: 30px; color: white"></span></a></li>
+                <li class="ms-3"><a class="link-dark" href="https://public.tableau.com/app/profile/vivian.wang7588"><span class="iconify" data-icon="simple-icons:tableau" style = "font-size: 30px; color: white"></span></a></li>
+                <li class="ms-3"><a class="link-dark" href="https://community.alteryx.com/t5/user/viewprofilepage/user-id/258456"><svg id="svg" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0, 0, 400,400"><g id="svgg" style = "filter: invert(100%)"><path id="path0" d="M186.070 3.985 C 36.286 14.762,-46.306 184.991,37.545 310.105 C 121.102 434.779,309.569 422.642,376.970 288.247 C 445.303 151.995,338.538 -6.985,186.070 3.985 M206.250 85.203 C 227.628 87.161,250.483 94.224,260.728 102.038 L 263.281 103.986 263.325 176.407 C 263.358 230.412,263.607 249.505,264.302 251.489 C 266.077 256.555,267.781 257.134,282.321 257.615 L 295.313 258.044 295.313 265.989 C 295.312 285.111,287.939 292.214,268.126 292.176 C 253.407 292.148,242.605 286.834,236.213 276.478 C 232.815 270.973,234.119 271.006,226.821 276.242 C 197.542 297.249,153.035 297.595,132.417 276.977 C 112.954 257.514,113.320 214.599,133.117 194.848 C 146.615 181.381,162.024 177.351,207.031 175.517 L 229.297 174.609 229.503 149.515 L 229.709 124.420 225.660 122.679 C 205.648 114.070,170.943 113.919,147.600 122.339 C 144.547 123.440,141.885 124.176,141.683 123.975 C 140.931 123.223,138.326 108.703,137.530 100.831 C 136.557 91.208,135.797 92.128,146.875 89.529 C 166.571 84.909,186.883 83.429,206.250 85.203 M203.516 202.062 C 175.154 203.481,168.007 205.027,161.809 211.087 C 151.338 221.325,152.138 249.350,163.138 257.610 C 174.763 266.340,203.455 263.779,223.959 252.181 C 230.720 248.357,230.126 251.236,229.849 223.633 L 229.620 200.781 227.115 200.894 C 225.737 200.956,215.117 201.482,203.516 202.062 "></path></g></svg></a></li>
             </ul>
         </div>
     </footer>
