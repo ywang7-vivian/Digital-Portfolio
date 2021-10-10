@@ -1,5 +1,5 @@
 body {
-    font-family: Lato;
+    font-family: Candara;
 }
 
 .page {
@@ -154,4 +154,32 @@ a.cover-link {
     background-color: white;
     border-radius: 12px;
     border: 2px solid orange;
+}
+
+.modal_link {
+    color: #f3aa4a;
+    text-decoration: none;
+}
+
+.modal_btn {
+    background-color: white;
+    border-radius: 12px;
+    border: 2px solid #f3aa4a;
+    color: #f3aa4a;
+}
+
+.close {
+    background-color: white;
+    border: none;
+    font-size: 10pt;
+}
+
+.modal_btn:hover {
+    background-color: #f3aa4a;
+    color: white;
+}
+
+.about_icon {
+    font-size: 22pt;
+    color: #f3aa4a
 }

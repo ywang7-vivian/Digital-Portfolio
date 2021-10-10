@@ -82,100 +82,54 @@
         </header>
 
         <main class="container">
-            <section class="pt-5 text-center container">
+            <section class="pt-3 mb-3 text-center container border-bottom">
                 <div class="row pt-lg-4">
                     <div class="col-lg-6 col-md-8 mx-auto">
-                        <p class="lead text-dark">Howdy, welcome to my blog! Here you will see a collection of projects I made about business analytics and data science. Enjoy!</p>
-
+                        <h2 class="text-dark">Portfolio</h2>
+                        <p><i>A collection projects I have worked on</i></p>
                     </div>
                 </div>
-
             </section>
-            <div class="container py-5 ">
-                <div class="row">
-                    <div class="col-md-4">
-                        <!-- left column -->
-                        <div class="row">
-                            <div class="col-md-12">
-                                <!-- Item 1.1 -->
-                                <div class="hovereffect card shadow-sm">
-                                    <img class="bd-placeholder-img card-img-top img-responsive" src="{{url_for('static', filename='image2.png')}}">
-                                    <div class="overlay">
-                                        <a class="cover-link" href="https://public.tableau.com/app/profile/vivian.wang7588/viz/SunnyStreet_16314786120950/Dashboard1">
-                                            <h2>Viz for Social Good</h2>
-                                            <h2>Sunny Street</h2>
-                                            <p class="date pb-3">Sep 2021</p>
-                                            <p><span class="badge bg-warning label">Tableau</span></p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <!-- Item 1.2 -->
 
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <!-- Item 1.3 -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <!-- center column -->
-                        <div class="row">
-                            <div class="col-md-12">
-                                <!-- Item 2.1 -->
-                                <div class="hovereffect card shadow-sm">
-                                    <img class="bd-placeholder-img card-img-top img-responsive" src="{{url_for('static', filename='image1.png')}}">
-                                    <div class="overlay">
-                                        <a class="cover-link" href="https://mis3640-random-restaurant.herokuapp.com/">
-                                            <h2>Random Restaurant Website</h2>
-                                            <p class="date pb-3">Sep 2020 - Dec 2020</p>
-                                            <p><span class="badge bg-primary label">Python</span></span>
-                                                <span class="badge bg-info label">HTML</span>
-                                                <span class="badge bg-info label">JavaScript</span>
-                                                <span class="badge bg-info label">CSS</span></p>
-                                        </a>
-                                    </div>
+            <div class="album py-5">
+                <div class="container">
+
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col">
+                            <div class="hovereffect card shadow-sm">
+                                <img class="bd-placeholder-img card-img-top img-responsive" src="{{url_for('static', filename='blog2.1.png')}}">
+                                <div class="overlay">
+                                    <a class="cover-link" data-toggle="modal" href="#sunnystreet">
+                                        <h2>Viz for Social Good</h2>
+                                        <h2>Sunny Street</h2>
+                                        <p class="date pb-3">Sep 2021</p>
+                                        <p></p>
+                                        <p><span class="badge bg-warning label">Tableau</span></p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <!-- Item 2.2 -->
+                        <div class="col">
+                            <div class="hovereffect card shadow-sm">
+                                <img class="bd-placeholder-img card-img-top img-responsive" src="{{url_for('static', filename='blog1.1.png')}}">
+                                <div class="overlay">
+                                    <a class="cover-link" data-toggle="modal" href="#randomrestaurant">
+                                        <h2>Random Restaurant Website</h2>
+                                        <p class="date pb-3">Sep 2020 - Dec 2020</p>
+                                        <p><span class="badge bg-primary label">Python</span></span>
+                                            <span class="badge bg-info label">HTML</span>
+                                            <span class="badge bg-info label">JavaScript</span>
+                                            <span class="badge bg-info label">CSS</span></p>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <!-- right column -->
-                        <div class="row">
-                            <div class="col-md-12">
-                                <!-- Item 3.1 -->
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <!-- Item 3.2 -->
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <!-- Item 3.3 -->
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <!-- Item 3.4 -->
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
-        </main>
 
+        </main>
 
         <footer class="text-muted py-5">
             <div class="container">
@@ -183,6 +137,7 @@
                     <h3 class="text-center pb-3 text-secondary">Hire Me</h3>
                 </div>
                 <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="ms-3"><a class="text-secondary" href="mailto: yifan.wang702@duke.edu"><span class="iconify" data-icon="clarity:email-solid" style = "font-size: 30px"></span></a></li>
                     <li class="ms-3"><a class="text-secondary" href="https://www.linkedin.com/in/vivian-yf-wang/"><span class="iconify" data-icon="akar-icons:linkedin-fill" style = "font-size: 30px"></span></a></li>
                     <li class="ms-3"><a class="text-secondary" href="https://github.com/ywang7-vivian"><span class="iconify" data-icon="ant-design:github-filled" style = "font-size: 30px"></span></a></li>
                     <li class="ms-3"><a class="text-secondary" href="https://public.tableau.com/app/profile/vivian.wang7588"><span class="iconify" data-icon="simple-icons:tableau" style = "font-size: 30px"></span></a></li>
@@ -194,19 +149,65 @@
 
     </div>
 
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Modal -->
+    <div class="modal fade" id="sunnystreet" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Viz for Social Good - Sunny Street</h5>
+                    <span class="badge bg-warning label">Tableau</span>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" style="font-size:22pt">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>The entire dashboard was reated for Sunny Street, a mobile health outreach service for those expericing homeless and vulnerability across Australia. The projected was organized by Viz for Social Good. </p>
+                    <p>In the dashboard, I mainly focused the importance of a non-profit health service in Australia, the demographic information of patients, and Sunny Street's performance over years.</p>
+                    <p>The dashboard was selected for <a class="modal_link" href="https://www.vizforsocialgood.com/blog/2021/10/9/sunny-street-presentation-and-round-up">presentation</a>.</p>
+                    <p>The entire dashboard can be viewed <a class="modal_link" href="https://public.tableau.com/app/profile/vivian.wang7588/viz/SunnyStreet_16314786120950/Dashboard1">here</a>.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="modal_btn" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="randomrestaurant" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Random Restaurant Website</h5>
+                    <p><span class="badge bg-primary label">Python</span></span>
+                        <span class="badge bg-info label">HTML</span>
+                        <span class="badge bg-info label">JavaScript</span>
+                        <span class="badge bg-info label">CSS</span></p>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" style="font-size:22pt">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>The project aims to offer an alternative for people with decidophobia to find out what they want to eat every day.</p>
+                    <p>Users can choose between "I am lucky today" (randomly choose one restaurant with type, location, and distance users enter) and "List all options" (Show all restaurants options that meet the conditions users enter).</p>
+                    <p>The project is available <a class="modal_link" href="https://mis3640-random-restaurant.herokuapp.com/">online</a>.</p>
+                    <p>The source code can be found in <a class="modal_link" href="https://github.com/ywang7-vivian/mis3640_project">github</a>.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="modal_btn" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-    <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
-    -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
