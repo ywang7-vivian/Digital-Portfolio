@@ -46,8 +46,8 @@
 </svg>
 
 
-    <header>
-        <div class="mx-5 py-4 fixed-top">
+    <header class="d-none d-sm-none d-md-block">
+        <div class="mx-5 py-4">
             <div class="container">
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                     <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-secondary text-decoration-none">
@@ -61,12 +61,12 @@
                         </li>
                         <li>
                             <a href="{{ url_for('portfolio') }}" class="nav-link text-secondary">
-                                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"/></svg> PORTFOLIO
+                                <svg class="bi d-block mx-auto mb-1" width="20" height="20"><use xlink:href="#grid"/></svg> PORTFOLIO
                             </a>
                         </li>
                         <li>
                             <a href="{{ url_for('about') }}" class="nav-link text-secondary">
-                                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"/></svg> ABOUT
+                                <svg class="bi d-block mx-auto mb-1" width="20" height="20"><use xlink:href="#people-circle"/></svg> ABOUT
                             </a>
                         </li>
                     </ul>
@@ -74,6 +74,42 @@
             </div>
         </div>
     </header>
+    <header class="d-block d-md-none d-lg-none">
+        <div class="mx-5 py-4">
+            <div class="container">
+                <div class="pos-f-t">
+                    <nav class="navbar">
+                        <button class="navbar-toggler header_btn text-small" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="iconify" data-icon="fontisto:nav-icon-a"></span>
+                      </button>
+                        <a href="/" class="nav justify-content-center text-secondary text-decoration-none">
+                            <span class="fs-4">Vivian Wang</span>
+                        </a>
+                    </nav>
+                    <div class="collapse" id="navbarToggleExternalContent">
+                        <ul class="nav my-2 justify-content-center text-small">
+                            <li>
+                                <a class="nav-link text-dark">
+                                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"/></svg> HOME
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{ url_for('portfolio') }}" class="nav-link text-secondary">
+                                    <svg class="bi d-block mx-auto mb-1" width="20" height="20"><use xlink:href="#grid"/></svg> PORTFOLIO
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{ url_for('about') }}" class="nav-link text-secondary">
+                                    <svg class="bi d-block mx-auto mb-1" width="20" height="20"><use xlink:href="#people-circle"/></svg> ABOUT
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
 
     <main>
         <section class="text-center vertical-center">

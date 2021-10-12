@@ -183,3 +183,10 @@ a.cover-link {
     font-size: 22pt;
     color: #f3aa4a
 }
+
+.header_btn {
+    background-color: white;
+    border-radius: 12px;
+    border: 2px solid #f3aa4a;
+    color: #f3aa4a;
+}
