@@ -158,7 +158,21 @@
                                 </div>
                             </div>
                         </div>
-
+                        <div class="col">
+                            <div class="hovereffect card shadow-sm">
+                                <img class="bd-placeholder-img card-img-top img-responsive" src="{{url_for('static', filename='blog3.1.png')}}">
+                                <div class="overlay">
+                                    <a class="cover-link" data-toggle="modal" href="#doctorvisits">
+                                        <h2>Doctor's Visits</h2>
+                                        <p class="date pb-3">Mar 2021</p>
+                                        <p><span class="badge bg-success label">R</span>
+                                            <span class="badge bg-success label">ggplot2</span>
+                                            <span class="badge bg-success label">plotly</span>
+                                            <span class="badge bg-success label">vcd</span></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -229,7 +243,35 @@
                     <p>The project aims to offer an alternative for people with decidophobia to find out what they want to eat every day in Boston.</p>
                     <p>Users can choose between "I am lucky today" (randomly choose one restaurant with type, location, and distance users enter) and "List all options" (Show all restaurants options that meet the conditions users enter).</p>
                     <p>The project is available <a class="modal_link" href="https://mis3640-random-restaurant.herokuapp.com/">online</a>.</p>
-                    <p>The source code can be found in <a class="modal_link" href="https://github.com/ywang7-vivian/mis3640_project">github</a>.</p>
+                    <p>The source code can be found on <a class="modal_link" href="https://github.com/ywang7-vivian/mis3640_project">GitHub</a>.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="modal_btn" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="doctorvisits" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header pb-1">
+                    <div style="display:block">
+                        <h5 class="modal-title" id="exampleModalLabel">Doctor's Visits</h5>
+                        <p><span class="badge bg-success label">R</span>
+                            <span class="badge bg-success label">ggplot2</span>
+                            <span class="badge bg-success label">plotly</span>
+                            <span class="badge bg-success label">vcd</span></p>
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" style="font-size:30pt">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>The project can provide reader an understanding of the health condition of different age group and different gender and could be used as a starting point for further modeling to estimate the health condition of current society.</p>
+                    <p>I created different types of data visualizations to describe the characteristics of people with different insurance and the relationship between health data and demographic data, including the relationship between age and health score,
+                        age and number of illness, gender and medications, gender and chronic conditions, etc.</p>
+                    <p>The project is available on <a class="modal_link" href="https://github.com/ywang7-vivian/Doctor-Visits">GitHub</a>.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="modal_btn" data-dismiss="modal">Close</button>
