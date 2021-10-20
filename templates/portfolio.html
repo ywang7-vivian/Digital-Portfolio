@@ -131,6 +131,32 @@
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                         <div class="col">
                             <div class="hovereffect card shadow-sm">
+                                <img class="bd-placeholder-img card-img-top img-responsive" src="{{url_for('static', filename='blog5.1.png')}}">
+                                <div class="overlay">
+                                    <a class="cover-link" data-toggle="modal" href="#squidgame">
+                                        <h2>Squid Game Wordcloud</h2>
+                                        <p class="date pb-3">Oct 2021</p>
+                                        <p><span class="badge bg-primary label">Python</span>
+                                            <span class="badge bg-warning label">Tableau</span></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="hovereffect card shadow-sm">
+                                <img class="bd-placeholder-img card-img-top img-responsive" src="{{url_for('static', filename='blog4.1.png')}}">
+                                <div class="overlay">
+                                    <a class="cover-link" data-toggle="modal" href="#bikeshare">
+                                        <h2>Bike Share Demand Prediction</h2>
+                                        <p class="date pb-3">Sep - Oct 2021</p>
+                                        <p><span class="badge bg-success label">R</span>
+                                            <span class="badge bg-primary label">Python</span></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="hovereffect card shadow-sm">
                                 <img class="bd-placeholder-img card-img-top img-responsive" src="{{url_for('static', filename='blog2.1.png')}}">
                                 <div class="overlay">
                                     <a class="cover-link" data-toggle="modal" href="#sunnystreet">
@@ -139,21 +165,6 @@
                                         <p class="date pb-3">Sep 2021</p>
                                         <p></p>
                                         <p><span class="badge bg-warning label">Tableau</span></p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="hovereffect card shadow-sm">
-                                <img class="bd-placeholder-img card-img-top img-responsive" src="{{url_for('static', filename='blog1.1.png')}}">
-                                <div class="overlay">
-                                    <a class="cover-link" data-toggle="modal" href="#randomrestaurant">
-                                        <h2>Boston Random Restaurant Website</h2>
-                                        <p class="date pb-3">Sep 2020 - Dec 2020</p>
-                                        <p><span class="badge bg-primary label">Python</span></span>
-                                            <span class="badge bg-info label">HTML</span>
-                                            <span class="badge bg-info label">JavaScript</span>
-                                            <span class="badge bg-info label">CSS</span></p>
                                     </a>
                                 </div>
                             </div>
@@ -169,6 +180,21 @@
                                             <span class="badge bg-success label">ggplot2</span>
                                             <span class="badge bg-success label">plotly</span>
                                             <span class="badge bg-success label">vcd</span></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="hovereffect card shadow-sm">
+                                <img class="bd-placeholder-img card-img-top img-responsive" src="{{url_for('static', filename='blog1.1.png')}}">
+                                <div class="overlay">
+                                    <a class="cover-link" data-toggle="modal" href="#randomrestaurant">
+                                        <h2>Boston Random Restaurant Website</h2>
+                                        <p class="date pb-3">Sep - Dec 2020</p>
+                                        <p><span class="badge bg-primary label">Python</span></span>
+                                            <span class="badge bg-info label">HTML</span>
+                                            <span class="badge bg-info label">JavaScript</span>
+                                            <span class="badge bg-info label">CSS</span></p>
                                     </a>
                                 </div>
                             </div>
@@ -272,6 +298,59 @@
                     <p>I created different types of data visualizations to describe the characteristics of people with different insurance and the relationship between health data and demographic data, including the relationship between age and health score,
                         age and number of illness, gender and medications, gender and chronic conditions, etc.</p>
                     <p>The project is available on <a class="modal_link" href="https://github.com/ywang7-vivian/Doctor-Visits">GitHub</a>.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="modal_btn" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="bikeshare" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header pb-1">
+                    <div style="display:block">
+                        <h5 class="modal-title" id="exampleModalLabel">Bike Share Demand Prediction</h5>
+                        <p><span class="badge bg-success label">R</span>
+                            <span class="badge bg-primary label">Python</span></p>
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" style="font-size:30pt">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>The bike-share industry is rapidly becoming popular as a primary use of transportation. However, bearing the high initial capital expenditure and ongoing depreciation expense, the bike sharing companies are facing risks of loss and
+                        a problem on how to maximize allocation efficiency to gain profits. Thus, I wanted to help the companies predict bike share demand and optimal supply level.</p>
+                    <p>I practised data preprocessing, exploratory data analysis and supervised learning in this project.</p>
+                    <p>The project is available on <a class="modal_link" href="https://www.kaggle.com/vivianyfwang/bike-share-demand-prediction">my Kaggle notebook</a>.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="modal_btn" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="squidgame" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header pb-1">
+                    <div style="display:block">
+                        <h5 class="modal-title" id="exampleModalLabel">Squid Game Wordcloud</h5>
+                        <p><span class="badge bg-primary label">Python</span>
+                            <span class="badge bg-warning label">Tableau</span></p>
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" style="font-size:30pt">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>As Netflix just announced that Squid Game becomes its biggest TV show ever, I created this wordcloud of tweets from #squidgame.</p>
+                    <p>The data is collected using Twitter API. I followed this <a class="modal_link" href="https://coolbluedata.com/custom-word-clouds-with-python-and-tableau/">instruction</a> to create the wordcloud using Python wordcloud package and Tableau.
+                    </p>
+                    <p>The final visualization is available on <a class="modal_link" href="https://public.tableau.com/app/profile/vivian.wang7588/viz/Book1_16346933454680/Dashboard1">Tableau Public</a>.</p>
+                    <p>The source code is available on <a class="modal_link" href="https://github.com/ywang7-vivian/Squid-Game-WordCloud">GitHub</a>.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="modal_btn" data-dismiss="modal">Close</button>
